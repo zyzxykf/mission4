@@ -1,0 +1,122 @@
+body {
+	margin: 0px;
+}
+
+body {
+	font-size: 12px;
+	line-height: 1.5;
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+.wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #36373c;
+}
+
+.login-from-wrap {
+	width: 300px;
+	height: 390px;
+	position: absolute;
+	top: 40%;
+	margin-top: -156px;
+	left: 50%;
+	margin-left: -150px;
+}
+
+.login-logo {
+	margin-bottom: 20px;
+}
+
+.login-logo .login-text {
+	width: 300px;
+	height: 120px;
+	font-size: 120px;
+	margin: 0px;
+	line-height: 1;
+	font-weight: bold;
+}
+
+.login-logo .login-text .animated {
+	float: left;
+	color: #4285f4;
+	background-image: -webkit-linear-gradient(92deg, #4285f4, #1aadad);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.form-group .form-control:focus {
+	outline: none;
+	box-shadow:none;
+	border-color: #ccc;
+}
+
+.form-group .form-control {
+	height: 37px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.change-link {
+	color: #b8b6b6;
+	cursor: pointer;
+	transition: color .2s linear;
+}
+
+.change-link:hover {
+	color: #7a7a7a;
+	text-decoration: none;
+}
+
+.change-link .arraw.left:before {
+	content: '>';
+}
+
+.waves-effect {
+
+}
+
+.login-from-wrap .btn {
+	width: 300px;
+	background-color: #4285f4;
+	color: #f3f3f3;
+	border-color: #4285f4;
+}
+
+.login-from-wrap .btn-default:hover {
+	color: #f3f3f3;
+}
+
+.login-from-wrap .btn-default:active, .login-from-wrap .btn-default:focus {
+	background-color: #4285f4!important;
+	color: #f3f3f3!important;
+	border-color: #4285f4!important;
+}
+
+.another-logins .spliter {
+	height: 1px;
+	margin: 20px 0;
+	background-color: #b8b6b6;
+	position: relative;
+}
+
+.another-logins .spliter .spliter-info {
+	position: absolute;
+	top: -10px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #909090;
+}
+
+.another-logins .spliter .spliter-info span {
+	background-color: #36373c;
+	padding: 10px;
+}
